@@ -24,7 +24,7 @@ def replace_text(old_vs_new_file, tree_file, output_file):
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("Usage: python script.py old_vs_new.csv tree.tree modified_tree.tree")
+        print("Usage: python rename_tips_stree.py old_vs_new.csv tree.tree modified_tree.tree")
         sys.exit(1)
     
     old_vs_new_file = sys.argv[1]
